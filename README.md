@@ -1,3 +1,32 @@
-git add README.md
-git commit -m "Add README"
-git push
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <main>
+    <p>This is a simple Node.js + HTML + CSS + JS website.</p>
+
+    <form id="contactForm">
+      <h2>Contact Us</h2>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="response"></p>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
